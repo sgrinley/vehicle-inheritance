@@ -2,7 +2,12 @@ package com.pluralsight;
 
 public class Car extends Vehicle {
 
-    public static void main(String[] args) {
+    public Car(String color,
+               int numberOfPassengers,
+               int cargoCapacity,
+               int fuelCapacity) {
 
+        super(color, numberOfPassengers,
+                cargoCapacity, fuelCapacity);
     }
 }
