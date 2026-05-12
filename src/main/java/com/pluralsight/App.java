@@ -17,7 +17,7 @@ public class App {
         // Hovercraft
         Hovercraft hoverOne = new Hovercraft ("Silver", 4, 300, 20);
 
-        // Display Values
+        // Print Values
         System.out.println(slowRide.getColor());
         System.out.println(familyCar.getFuelCapacity());
     }
